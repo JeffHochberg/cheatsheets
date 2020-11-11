@@ -336,7 +336,7 @@ See: [Object spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 const users = [
   ...admins,
   ...editors,
-  'rstacruz'
+  'JeffHochberg'
 ]
 ```
 {: data-line="2,3"}
@@ -346,7 +346,7 @@ const users = [
 ```js
 const users = admins
   .concat(editors)
-  .concat([ 'rstacruz' ])
+  .concat([ 'JeffHochberg' ])
 ```
 
 The spread operator lets you build new arrays in the same way.
